@@ -30,7 +30,7 @@ const config = {
     BOT: process.env.BOT_NAME || 'Boyer-MD', //replace with your bot name
     MODE: process.env.PUBLIC_MODE || "no",              
     TIMEZONE: process.env.TIMEZONE || "Africa/Nairobi", //replace with your timezone 
-    DP: process.env.STARTING_BOT_MESSAGE || "yes",
+    DP: process.env.STARTING_BOT_MESSAGE || "no",
     ADM: process.env.ANTI_DELETE_MESSAGE || 'no',
     
     DATABASE_URL,
